@@ -88,7 +88,7 @@ if __name__ == '__main__':
     resized = resize(image, width=200, height=200)
     cv2.imwrite('resized.png', resized)
     print(f"Original: {image.shape[1]}x{image.shape[0]}")
-    print(f"Cropped: {resized.shape[1]}x{resized.shape[0]}")
+    print(f"Resized: {resized.shape[1]}x{resized.shape[0]}")
 
 #assignment 4
     height, width, channels = image.shape
